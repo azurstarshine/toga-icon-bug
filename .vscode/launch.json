@@ -5,17 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: working",
-            "type": "debugpy",
-            "request": "launch",
-            "module": "working",
-            "console": "internalConsole"
-        },
-        {
             "name": "Python Debugger: broken",
             "type": "debugpy",
             "request": "launch",
             "module": "broken",
+            "console": "internalConsole"
+        },
+        {
+            "name": "Python Debugger: working",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "working",
             "console": "internalConsole"
         }
     ]
