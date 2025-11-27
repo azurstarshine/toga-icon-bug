@@ -36,3 +36,9 @@ Demo showing that toga requires subclassing App to change the icon
     app.app_name='icon_demo'
     app.icon.path=WindowsPath('resources/icon_demo')
     ```
+
+# Credits
+
+The icon files in `resources` are borrowed from toga-demo.
+
+Everything else was created from scratch.
