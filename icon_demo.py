@@ -33,7 +33,8 @@ def main(broken: bool):
         startup=build,
     )
 
-    print(app.app_name)
-    print(app.icon.path)
+    print(f"{appclass=}")
+    print(f"{app.app_name=}")
+    print(f"{app.icon.path=}")
 
     app.main_loop()
